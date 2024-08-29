@@ -22,3 +22,18 @@ PREFIX : <http://example.org/>
   :title "Understanding W.G. Sebald" ;
   :pages 193 ;
   :about :w-g-sebald .
+
+# wirte turtle statements describing the books dark secrets of manning hall by nathaniel hornblower,published by random house in 1985.
+:dark-secrets-of-manning-hall a :Book ;
+  :title "Dark Secrets of Manning Hall" ;
+  :author :nathaniel-hornblower ;
+  :publisher :random-house ;
+  :publication_year 1985 .
+
+:nathaniel-hornblower a :Author ;
+  :given_name "Nathaniel" ;
+  :surname "Hornblower" .
+
+:random-house a :Publisher ;
+  :name "Random House" .
+
